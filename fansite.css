@@ -1,0 +1,168 @@
+.accueil{
+    background-image: url("world cup 2022.jpg");
+    background-repeat: no-repeat;  
+    background-size: cover;
+}
+.equipes{
+background-image: url("background\ equipes.jpg");
+background-repeat: no-repeat;  
+background-size: cover;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background: rgb(2,0,36);
+background: linear-gradient(138deg, rgba(2,0,36,1) -1%, rgba(0,118,116,1) 10%, rgba(4,170,161,1) 42%, rgba(2,0,36,1) 48%);
+    
+  }
+  li{
+    width: 227px;
+  }
+  li a {
+    display: block;
+    color: rgb(253, 248, 248);
+    padding: 20px 16px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(160, 44, 44);
+    color: white;
+    width: 197px;
+  }
+header{
+  display: flex;
+}
+ul{
+  margin-left: 75%;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  gap: 2px;
+  padding: 7px;
+  
+}
+
+.grid-container > div {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding: 35px 0;
+  font-size: 14px;
+  border: 5px solid rgba(191, 139, 207, 0.8);
+}
+.grid-container img {
+  width: 120px;
+  height: 70px;
+}
+h1{
+
+  color: RGB(213, 196, 110);
+  width: 100%;
+  padding: 1%;
+  text-align: center;
+}
+footer{
+  display: flex;
+  justify-content: space-around;
+  background-color: RGB(34, 31, 38)
+  
+}
+.grid-container a img{
+  border: 3px solid RGB(213, 196, 110);
+}
+
+.parent {
+  background-color: RGB(93, 88, 85);
+  color: white;
+  display: grid;
+  -moz-border-radius:10px ;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: 3px solid black;
+  grid-template-columns: 3fr repeat(2, 0.5fr);
+  grid-template-rows: repeat(3, 1fr);
+  width: 450px
+  
+  
+}
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+.div3 { grid-area: 1 / 3 / 2 / 4; }
+.div4 { grid-area: 2 / 1 / 3 / 2; height: 20px;
+display: flex;
+align-items: center;
+gap: 10px;
+}
+.div5 { grid-area: 2 / 2 / 3 / 3; }
+.div6 { grid-area: 2 / 3 / 3 / 4; }
+.div7 { grid-area: 3 / 1 / 4 / 2;height: 20px;
+  display: flex;
+align-items: center;
+gap: 10px; }
+.div8 { grid-area: 3 / 2 / 4 / 3; }
+.div9 { grid-area: 3 / 3 / 4 / 4; }
+
+.calendrier{
+  display: flex;
+ 
+}
+.titre{
+  color: black;
+  border: 3px solid RGB(213, 196, 110);
+  border-radius:10px ;
+  background-color: gray; width: initial;
+  margin-left: 20%;
+  
+}
+body{
+  background-image: url("background\ equipes.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image{
+  width: 60px
+
+}
+.borderfini{
+  border-radius: 0.1px;
+  background-color: red;
+  width: 100%;
+  padding: 1%;
+  text-align: center;
+}
+.date{
+margin-left: 170px;
+margin-top: 70px
+}
+.heurematch{
+margin-top: 40px;
+
+color: rgb(195, 195, 195); 
+background-color: black;
+ width: 96.67%;
+padding: 2%;
+text-align: center;
+background: rgb(197,81,252);
+background: linear-gradient(90deg, rgba(197,81,252,1) 12%, rgba(91,10,148,1) 26%, rgba(103,18,160,1) 74%, rgba(197,81,252,1) 88%);
+border-radius: 10px;
+}
+.vidéos{
+  display: flex;
+
+}
+.vidéos{
+  background-image: url("image\ pour\ video\ image.jpg");
+  background-repeat: no-repeat;
+  height: 50px;
+}
+.margin-left{
+  margin-left: 400px;
+}
